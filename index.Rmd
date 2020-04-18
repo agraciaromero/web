@@ -1,6 +1,7 @@
 ---
 title: "Adrian Gracia Romero"
-author: "PhD Student in Plant Phenotyping, Remote Sensing specialist, AESA-certified drone pilot - Universitat de Barcelona"
+author: "PhD Student in Plant Phenotyping, Remote Sensing specialist, AESA-certified drone pilot"
+author: "Universitat de Barcelona"
 output:  html_document
 ---
 
