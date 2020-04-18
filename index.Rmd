@@ -1,6 +1,6 @@
 ---
-title: "Home"
-author: "Chelsea Parlett Pelleriti"
+title: "Adrian Gracia Romero"
+author: "PhD Student in Plant Phenotyping, Remote Sensing specialist, AESA-certified drone pilot - Universitat de Barcelona"
 output:  html_document
 ---
 
