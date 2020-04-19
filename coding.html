@@ -175,21 +175,21 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Chelsea Parlett Pelleriti</a>
+      <a class="navbar-brand" href="index.html">Adrian Gracia Romero</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="writing.html">Writing</a>
+  <a href="research.html"Research</a>
 </li>
 <li>
-  <a href="coding.html">Coding</a>
+  <a href="coding.html">Publications</a>
 </li>
 <li>
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
-  <a href="research.html">Research</a>
+  <a href="writing.html">Writing</a>
 </li>
 <li>
   <a href="TheChatistician.html">The Chatistician</a>
@@ -229,15 +229,32 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Coding</h1>
-<h4 class="author"><em>Chelsea Parlett</em></h4>
+<h1 class="title toc-ignore">Publications</h1>
+<h4 class="author"><em>Adrian Gracia Romero</em></h4>
 
 </div>
 
+<script src="jquery.min.js"></script>
+<script src="bib-list-min.js"></script>
+  
+<link rel="stylesheet" href="bib-publication-list.css" type="text/css" />
+  
+<table id="pubTable" class="display"></table>
+<pre id="bibtex">@article{Karavirta:JVLCTaxonomy,
+   title = {A comprehensive taxonomy of algorithm animation languages},
+   journal = {Journal of Visual Languages \& Computing},
+   volume = {20},
+   number = {1},
+   pages = {1--22},
+   year = {2010},
+   issn = {1045-926X},
+   doi = {DOI: 10.1016/j.jvlc.2009.09.001},
+   author = {Ville Karavirta and Ari Korhonen and Lauri Malmi and Thomas Naps}
+}
+</pre>
+  
+bibtexify("#bibtex", "pubTable");
 
-<pre class="r"><code>plot(mtcars$mpg,mtcars$wt)</code></pre>
-<p><img src="coding_files/figure-html/unnamed-chunk-1-1.png" width="672" /> I code stuff.</p>
-<p><a href="hidden/Quiz2.html">Bayesian Quiz 2</a></p>
 
 
 
